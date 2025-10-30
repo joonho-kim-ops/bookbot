@@ -30,4 +30,5 @@ def char_count(text):
             chars[char] = 1
     return chars
 
-
+def sort_char(char_dict):
+    return dict(sorted(char_dict.items(), key=lambda item: item[1], reverse=True))
