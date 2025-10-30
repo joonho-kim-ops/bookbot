@@ -13,7 +13,7 @@ def letter_count(text):
     num_letters = len(letters)
     return num_letters
 """
-
+"""
 def char_count(text):
     lower_text = text.lower()
     char_count = Counter(lower_text)
@@ -29,5 +29,5 @@ def char_count(text):
         else:
             chars[char] = 1
     return chars
-"""
+
 
